@@ -1,0 +1,74 @@
+﻿@model IEnumerable<DTOs.DTOModels.EntityDTOs.BoxDTO>
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/Layouts/_LayoutPageMain.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListBox</title>
+</head>
+<body>
+    <div class="container-fluid"> 
+        <table id="tbl" class="table table-bordered table-striped" style="margin-top:150px">
+            <thead>
+                <tr>
+                    <th>Box Name</th>
+                    <th>Box Type ID</th>
+                    <th>Description</th>
+                    <th></th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.BoxName</td>
+                        <td>@item.BoxTypeID</td>
+                        <td>@item.Description</td>
+                        <td>
+                            <a class="btn btn-danger " data-toggle="modal" data-target="#pwModal" href="" >Sil</a>  
+                            <a class="btn btn-success " data-toggle="modal" data-target="#pwModal" href="" >Düzenle</a>  
+                        </td>
+                    </tr>
+
+                }
+
+            </tbody>
+            
+           
+        </table>
+    </div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $('#tbl').DataTable();
+    });
+</script>
+
+
+<div class="modal fade" id="pwModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <b>Enter Your Current Password</b>
+                <input type="password" class="form-control mt-2 mb-3" />
+                <b>New Password</b>
+                <input type="text" class="form-control mt-2 mb-3" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">Change Password</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\Common.dll.config
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\Common.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\Common.pdb
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\EntityFramework.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\EntityFramework.xml
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\obj\Debug\CommonType.csprojAssemblyReference.cache
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\obj\Debug\CommonType.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\obj\Debug\CommonType.csproj.CopyComplete
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\obj\Debug\Common.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Common\obj\Debug\Common.pdb

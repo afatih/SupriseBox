@@ -1,0 +1,15 @@
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Core.dll.config
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Core.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Core.pdb
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Common.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Common.pdb
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Common.dll.config
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.xml
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.dll
+C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.pdb
