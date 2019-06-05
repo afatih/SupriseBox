@@ -43,10 +43,10 @@
                             <div class="f_p_item">
                                 <div class="f_p_img">
                                     <img class="img-fluid" src="~/Content/Images/BoxImages/kutu.jpg" alt="">
-                                    HELLO FATİH 
+                                    HELLO FATİH
                                     <div class="p_icon">
                                         <a href="SingleBox/@item.ID"><i class="lnr lnr-heart"></i></a>
-                                        <a href="#"><i class="lnr lnr-cart"></i></a>
+                                        <a id="addBasket_@item.ID" class="basketButton"><i class="lnr lnr-cart" onclick="catchID(@item.ID)"></i></a>
                                     </div>
                                 </div>
                                 <a href="SingleBox/@item.ID"><h4>@item.BoxName</h4></a>
@@ -55,10 +55,30 @@
                         </div>
                     }
 
-                    </div>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
 
+
+<script>
+        function catchID(id) {
+            var catchID =id;
+            console.log(id)
+        var url = "@Url.Action("ShoppingCard", "Shopping")";
+        $.get(url, { BoxID:catchID}, function (d, s) {
+            console.log(d);
+            if (d.status == 1) {
+                alert(d.box + d.message);
+            }
+            else if (d.status==2)
+            {
+                alert(d.box + d.message);
+            }
+
+        })
+        return false;
+    }
+</script>

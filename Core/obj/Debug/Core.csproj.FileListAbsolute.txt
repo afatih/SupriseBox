@@ -1,15 +1,48 @@
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Core.dll.config
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Core.dll
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Core.pdb
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Common.dll
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.dll
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Common.pdb
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\Common.dll.config
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.xml
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.csprojAssemblyReference.cache
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.csproj.CopyComplete
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.dll
-C:\Users\Section1\Source\Workspaces\SuprisKutuProjesi\SupriseBoxProject\Core\obj\Debug\Core.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\Core.dll.config
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\Core.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\Core.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\EntityFramework.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\Core.dll.config
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\Core.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\Core.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\EntityFramework.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\Core\obj\Debug\Core.pdb
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\Core.dll.config
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\Core.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\Core.pdb
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\Common.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\Common.pdb
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Debug\Core.dll
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Debug\Core.pdb
+C:\tfs\ProjeMuhaf\Core\bin\Debug\Core.dll.config
+C:\tfs\ProjeMuhaf\Core\bin\Debug\Core.dll
+C:\tfs\ProjeMuhaf\Core\bin\Debug\Core.pdb
+C:\tfs\ProjeMuhaf\Core\bin\Debug\Common.dll
+C:\tfs\ProjeMuhaf\Core\bin\Debug\EntityFramework.dll
+C:\tfs\ProjeMuhaf\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\tfs\ProjeMuhaf\Core\bin\Debug\Common.pdb
+C:\tfs\ProjeMuhaf\Core\bin\Debug\Common.dll.config
+C:\tfs\ProjeMuhaf\Core\bin\Debug\EntityFramework.xml
+C:\tfs\ProjeMuhaf\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\tfs\ProjeMuhaf\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\tfs\ProjeMuhaf\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\tfs\ProjeMuhaf\Core\obj\Debug\Core.csproj.CopyComplete
+C:\tfs\ProjeMuhaf\Core\obj\Debug\Core.dll
+C:\tfs\ProjeMuhaf\Core\obj\Debug\Core.pdb
