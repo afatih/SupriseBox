@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dtos.DTOModels.EntitiyDTOs
+namespace DTOs.DTOModels.EntityDTOs
 {
     public class UserDTO
     {

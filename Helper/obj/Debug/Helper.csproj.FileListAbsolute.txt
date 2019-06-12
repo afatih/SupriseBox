@@ -19,3 +19,9 @@ C:\tfs\ProjeMuhaf\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
 C:\tfs\ProjeMuhaf\Helper\obj\Debug\Helper.csproj.CopyComplete
 C:\tfs\ProjeMuhaf\Helper\obj\Debug\Helper.dll
 C:\tfs\ProjeMuhaf\Helper\obj\Debug\Helper.pdb
+C:\tfs\ProjeMuhaf\Helper\bin\Debug\Entity.dll
+C:\tfs\ProjeMuhaf\Helper\bin\Debug\Entity.pdb
+C:\tfs\ProjeMuhaf\Helper\bin\Debug\Entity.dll.config
+C:\tfs\ProjeMuhaf\Helper\bin\Debug\Dtos.dll
+C:\tfs\ProjeMuhaf\Helper\bin\Debug\Dtos.pdb
+C:\tfs\ProjeMuhaf\Helper\bin\Debug\Dtos.dll.config

@@ -53,3 +53,6 @@ C:\tfs\ProjeMuhaf\Dal.Canli\obj\Debug\Dal.Canli.csproj.CoreCompileInputs.cache
 C:\tfs\ProjeMuhaf\Dal.Canli\obj\Debug\Dal.Canli.csproj.CopyComplete
 C:\tfs\ProjeMuhaf\Dal.Canli\obj\Debug\Dal.Canli.dll
 C:\tfs\ProjeMuhaf\Dal.Canli\obj\Debug\Dal.Canli.pdb
+C:\tfs\ProjeMuhaf\Dal.Canli\bin\Debug\Dtos.dll
+C:\tfs\ProjeMuhaf\Dal.Canli\bin\Debug\Dtos.pdb
+C:\tfs\ProjeMuhaf\Dal.Canli\bin\Debug\Dtos.dll.config

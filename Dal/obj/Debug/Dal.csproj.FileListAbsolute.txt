@@ -47,3 +47,6 @@ C:\tfs\ProjeMuhaf\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 C:\tfs\ProjeMuhaf\Dal\obj\Debug\Dal.csproj.CopyComplete
 C:\tfs\ProjeMuhaf\Dal\obj\Debug\Dal.dll
 C:\tfs\ProjeMuhaf\Dal\obj\Debug\Dal.pdb
+C:\tfs\ProjeMuhaf\Dal\bin\Debug\Dtos.dll
+C:\tfs\ProjeMuhaf\Dal\bin\Debug\Dtos.pdb
+C:\tfs\ProjeMuhaf\Dal\bin\Debug\Dtos.dll.config

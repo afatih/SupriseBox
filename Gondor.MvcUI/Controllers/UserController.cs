@@ -1,6 +1,5 @@
 ﻿using Bll.Abstract.EntityType;
-using Dtos.DTOModels;
-using Dtos.DTOModels.EntitiyDTOs;
+using DTOs.DTOModels.EntityDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,11 +32,12 @@ namespace SupriseBox.MvcUI.Controllers
                 {
                     if (model.Result.Password == userDTO.Password && model.Result.IsDelete == false)
                     {
+
                         Session["UserId"] = model.Result.ID;
                         Session["UserName"] = model.Result.UserName;
 
                         //to do: Yönlendirme sayfası düzenlenecek.
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("AnaSayfa", "Home");
                     }
                     else
                     {
@@ -59,6 +59,9 @@ namespace SupriseBox.MvcUI.Controllers
         public ActionResult SignOut()
         {
             Session["UserId"] = null;
+            Session["UserName"] = null;
+            Helper.ShoppingDetails.items.Clear();
+            Helper.ShoppingDetails.UserID = null;
             Session.Abandon();
             return RedirectToAction("Index", "Home");
         }

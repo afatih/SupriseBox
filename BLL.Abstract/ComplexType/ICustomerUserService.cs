@@ -11,5 +11,6 @@ namespace Bll.Abstract.ComplexType
     public interface ICustomerUserService
     {
         ServiceResult AddCustomerUser(CustomerUserDTO customeruser);
+        ServiceResult<CustomerUserDTO> GetCustomerUserByUserId(int id);
     }
 }

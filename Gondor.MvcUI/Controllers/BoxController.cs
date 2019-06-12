@@ -25,6 +25,7 @@ namespace SupriseBox.MvcUI.Controllers
             _bts = bts;
         }
 
+        //Kutuları listeleyecek ama silme ve düzenleme işlemleri de olacak admin tarafına aktarılacak
         [Route("box/listbox")]
         public ActionResult ListBox()
         {
@@ -32,6 +33,7 @@ namespace SupriseBox.MvcUI.Controllers
             return View(model);
         }
 
+        //Kutu ekleme sayfasını gösterir admin tarafına aktarılacak
         [Route("box/addbox")]
         public ActionResult AddBox()
         {
@@ -39,6 +41,7 @@ namespace SupriseBox.MvcUI.Controllers
             return View(boxtypes);
         }
 
+        //Kutu bilgileri alındıktan sonra db ye kaydını yapar admin tarafına aktarılacak
         [Route("box/addbox")]
         [HttpPost]
         public ActionResult AddBox(BoxDTO box)
@@ -52,23 +55,20 @@ namespace SupriseBox.MvcUI.Controllers
             return Content(model.State.ToString());
         }
 
+        //Tekli kutularla alakalı bilgileri gösterir.
         public ActionResult SingleBox(int id)
         {
-            var selectedBoxesInBasket = Helper.ShoppingList.GetBoxesInBasket();
-            ViewBag.selectedBoxesInBasket = selectedBoxesInBasket;
 
             var model = _bbts.GetBoxBoxType(id);
-            
-
             if (model.Result!=null)
             {
                 return View(model.Result);
             }
-           
-            return HttpNotFound();
 
+            return HttpNotFound();
         }
 
+        //Admin tarafına aktarılacak
         [Route("box/addbox")]
         public ActionResult UpdateBox(int id)
         {
@@ -76,7 +76,7 @@ namespace SupriseBox.MvcUI.Controllers
             return View(boxtypes);
         }
 
-
+        //Kutuların bulunduğu ana sayfayı açar.
         public ActionResult BoxesMainPage()
         {
             var model = _bs.GetBoxes().Result;

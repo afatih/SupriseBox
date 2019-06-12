@@ -264,6 +264,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Controllers\BoxController.cs" />
+    <Compile Include="Controllers\CheckOutController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\CustomerUserController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -271,6 +272,9 @@
     <Compile Include="Controllers\ShoppingController.cs" />
     <Compile Include="Controllers\StockController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Filter\Auth.cs" />
+    <Compile Include="Filter\AuthAdmin.cs" />
+    <Compile Include="Filter\Exc.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -289,18 +293,16 @@
     <Content Include="Views\Box\ListBox.cshtml" />
     <Content Include="Views\Box\AddBox.cshtml" />
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\CustomerUser\Register.cshtml" />
     <Content Include="Views\Box\SingleBox.cshtml" />
     <Content Include="Views\User\SignIn.cshtml" />
     <Content Include="Views\Home\Anasayfa.cshtml" />
     <Content Include="Views\Box\BoxesMainPage.cshtml" />
     <Content Include="Views\Shared\LayoutParts\_HeaderMainPage.cshtml" />
-    <Content Include="Views\Box\SingleBox2.cshtml" />
-    <Content Include="Views\Box\BoxesMainPage2.cshtml" />
     <Content Include="Views\Basket\BoxesInBasket.cshtml" />
     <Content Include="Views\Shared\LayoutParts\_BannerMain.cshtml" />
     <Content Include="Views\Shopping\ShoppingCardDetail.cshtml" />
+    <Content Include="Views\CheckOut\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -52,5 +52,29 @@ namespace BLL.ComplexType
 
 
         }
+
+        public ServiceResult<CustomerUserDTO> GetCustomerUserByUserId(int id)
+        {
+            var sorgu = from c in _cr.GetQuery()
+                        join u in _ur.GetQuery() on c.UserID equals u.ID
+                        where u.ID == id
+                        select new CustomerUserDTO
+                        {
+                            UserName = u.UserName,
+                            FirstName = c.FirstName,
+                            LastName = c.LastName,
+                            eMail = c.Email,
+                        };
+            var result = sorgu.FirstOrDefault();
+
+
+            if (result == null)
+            {
+                return new ServiceResult<CustomerUserDTO>(ProcessStateEnum.Warning, "Kullanıcı bulunamadı", null);
+            }
+
+            return new ServiceResult<CustomerUserDTO>(ProcessStateEnum.Success, "Kullanıcı işlemi başarılı.", result);
+
+        }
     }
 }

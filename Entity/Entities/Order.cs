@@ -22,6 +22,8 @@ namespace Entity
 
         public int CustomerID { get; set; }
 
+        public string Adress { get; set; }
+
         public virtual Customer Customer { get; set; }
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
