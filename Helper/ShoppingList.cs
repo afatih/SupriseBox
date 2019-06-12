@@ -9,22 +9,23 @@ using System.Web;
 namespace Helper
 {
     public static class ShoppingList
-    {   
+    {
         public static Dictionary<int, int> boxList = new Dictionary<int, int>();
-        public static void AddBox(int boxId)
+        public static ServiceResult AddBox(int boxId)
         {
 
             if (boxList.ContainsKey(boxId))
             {
-                boxList[boxId] += 1;
+                //boxList[boxId] += 1;
+                return new ServiceResult(ProcessStateEnum.Warning, " isimli ürün çantanızda mevcuttur lütfen miktarını arttırmak için sepetinize gidiniz.");
             }
-            else
-            {
-                boxList.Add(boxId, 1);
-            }
+
             HttpContext.Current.Session.Clear();
             HttpContext.Current.Session["sepet"] = boxList;
             UpdateSession();
+            boxList.Add(boxId, 1);
+
+            return new ServiceResult(ProcessStateEnum.Success, " isimli ürün çantanıza başarıyla eklenmiştir.");
         }
         public static void RemoveBox(int boxId)
         {
@@ -39,10 +40,31 @@ namespace Helper
                 UpdateSession();
             }
         }
-        private static void UpdateSession()
+        public static void UpdateSession()
         {
             HttpContext.Current.Session.Clear();
             HttpContext.Current.Session["sepet"] = boxList;
         }
+
+        public static List<int> GetBoxesKeysInBasket()
+        {
+            var basket = (Dictionary<int, int>)HttpContext.Current.Session["sepet"];
+            List<int> selectedBoxes = new List<int>();
+            if (basket == null)
+            {
+                return selectedBoxes;
+            }
+            selectedBoxes = basket.Keys.ToList();
+            return selectedBoxes;
+        }
+
+        public static Dictionary<int,int> GetBoxesInBasket()
+        {
+            var basket = (Dictionary<int, int>)HttpContext.Current.Session["sepet"];
+            
+            return basket;
+        }
+
+
     }
 }

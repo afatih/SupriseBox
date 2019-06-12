@@ -13,6 +13,7 @@ namespace EntityMapping.EntityMappings
         public BoxTypeMapping()
         {
             Property(e => e.Type)
+                
                 .IsUnicode(false)
                 .IsRequired()
                 .HasMaxLength(20);

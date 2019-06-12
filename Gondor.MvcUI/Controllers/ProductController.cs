@@ -15,6 +15,8 @@ namespace SupriseBox.MvcUI.Controllers
             _pc = pc;
         }
         // GET: Product
+
+        [Route("Product/ToList")]
         public ActionResult ToList()
         {
            var model= _pc.GetProducts().Result;

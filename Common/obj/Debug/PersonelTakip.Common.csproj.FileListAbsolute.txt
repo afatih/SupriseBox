@@ -1,0 +1,12 @@
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\bin\Debug\PersonelTakip.Common.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\bin\Debug\PersonelTakip.Common.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.csproj.CoreCompileInputs.cache
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\304_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.csprojAssemblyReference.cache
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\bin\Debug\PersonelTakip.Common.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\bin\Debug\PersonelTakip.Common.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.csproj.CoreCompileInputs.cache
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.dll
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.pdb
+C:\Users\X\OneDrive\Eğitmenlik\Wissen - Bahçeşehir\2019\503_20190107\Ortak\09_UnitOfWork\PersonelTakip.Common\obj\Debug\PersonelTakip.Common.csprojAssemblyReference.cache

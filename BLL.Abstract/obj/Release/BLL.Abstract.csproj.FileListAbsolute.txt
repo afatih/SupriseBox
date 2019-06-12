@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\bin\Release\Common.dll
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\bin\Release\Entity.dll
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\bin\Release\Common.pdb
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\bin\Release\Entity.pdb
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\obj\Release\BLL.Abstract.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\obj\Release\BLL.Abstract.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\obj\Release\BLL.Abstract.csproj.CopyComplete
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\bin\Release\Bll.Abstract.dll
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\bin\Release\Bll.Abstract.pdb
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\obj\Release\Bll.Abstract.dll
+C:\Users\user\source\repos\ProjeGondor\BLL.Abstract\obj\Release\Bll.Abstract.pdb

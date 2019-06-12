@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\ProjeGondor\Helper\bin\Release\Helper.dll
+C:\Users\user\source\repos\ProjeGondor\Helper\bin\Release\Helper.pdb
+C:\Users\user\source\repos\ProjeGondor\Helper\obj\Release\Helper.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\Helper\obj\Release\Helper.dll
+C:\Users\user\source\repos\ProjeGondor\Helper\obj\Release\Helper.pdb

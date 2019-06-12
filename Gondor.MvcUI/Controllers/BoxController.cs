@@ -54,6 +54,9 @@ namespace SupriseBox.MvcUI.Controllers
 
         public ActionResult SingleBox(int id)
         {
+            var selectedBoxesInBasket = Helper.ShoppingList.GetBoxesInBasket();
+            ViewBag.selectedBoxesInBasket = selectedBoxesInBasket;
+
             var model = _bbts.GetBoxBoxType(id);
             
 

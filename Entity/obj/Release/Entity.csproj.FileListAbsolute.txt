@@ -1,0 +1,9 @@
+C:\Users\user\source\repos\ProjeGondor\Entity\bin\Release\Entity.dll
+C:\Users\user\source\repos\ProjeGondor\Entity\bin\Release\Entity.pdb
+C:\Users\user\source\repos\ProjeGondor\Entity\obj\Release\Entity.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ProjeGondor\Entity\obj\Release\Entity.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\Entity\obj\Release\Entity.csproj.CopyComplete
+C:\Users\user\source\repos\ProjeGondor\Entity\obj\Release\Entity.dll
+C:\Users\user\source\repos\ProjeGondor\Entity\obj\Release\Entity.pdb
+C:\Users\user\source\repos\ProjeGondor\Entity\bin\Release\Common.dll
+C:\Users\user\source\repos\ProjeGondor\Entity\bin\Release\Common.pdb

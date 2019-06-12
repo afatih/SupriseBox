@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\ProjeGondor\Common\bin\Debug\PersonelTakip.Common.dll
+C:\Users\user\source\repos\ProjeGondor\Common\bin\Debug\PersonelTakip.Common.pdb
+C:\Users\user\source\repos\ProjeGondor\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\Common\obj\Debug\PersonelTakip.Common.dll
+C:\Users\user\source\repos\ProjeGondor\Common\obj\Debug\PersonelTakip.Common.pdb

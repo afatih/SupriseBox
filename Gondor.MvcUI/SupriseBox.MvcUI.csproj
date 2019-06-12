@@ -177,7 +177,8 @@
     <Content Include="js\imagesloaded.pkgd.min.js" />
     <Content Include="js\isotope-min.js" />
     <Content Include="js\jquery-3.2.1.min.js" />
-    <Content Include="js\jquery.ajaxchimp.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.ajaxchimp.min.js" />
     <Content Include="js\jquery.counterup.js" />
     <Content Include="js\jquery.form.js" />
     <Content Include="js\jquery.js" />
@@ -209,8 +210,15 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\css\fonts\Linearicons-Free.woff" />
+    <Content Include="Content\css\fonts\Linearicons-Free.woff2" />
     <Content Include="Content\css\breadcrumb.css.map" />
-    <Content Include="Content\css\style.css.map" />
     <Content Include="Content\css\_about.css.map" />
     <Content Include="Content\css\_client.css.map" />
     <Content Include="Content\css\_feature.css.map" />
@@ -219,12 +227,6 @@
     <Content Include="Content\css\_team.css.map" />
     <Content Include="Content\css\_timer.css.map" />
     <Content Include="Content\css\_variables.css.map" />
-    <Content Include="Areas\Admin\Views\web.config" />
-    <Content Include="Content\fonts\fontawesome-webfont.eot" />
-    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
-    <Content Include="Content\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -260,6 +262,7 @@
     <Compile Include="App_Start\Ninject.Web.Common.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Controllers\BoxController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\CustomerUserController.cs" />
@@ -293,6 +296,11 @@
     <Content Include="Views\Home\Anasayfa.cshtml" />
     <Content Include="Views\Box\BoxesMainPage.cshtml" />
     <Content Include="Views\Shared\LayoutParts\_HeaderMainPage.cshtml" />
+    <Content Include="Views\Box\SingleBox2.cshtml" />
+    <Content Include="Views\Box\BoxesMainPage2.cshtml" />
+    <Content Include="Views\Basket\BoxesInBasket.cshtml" />
+    <Content Include="Views\Shared\LayoutParts\_BannerMain.cshtml" />
+    <Content Include="Views\Shopping\ShoppingCardDetail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -306,7 +314,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Shopping\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL.Abstract\BLL.Abstract.csproj">

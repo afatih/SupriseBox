@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityMapping.dll.config
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityMapping.dll
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityMapping.pdb
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\Entity.dll
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityFramework.dll
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\Entity.pdb
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityFramework.xml
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\obj\Release\EntityMapping.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\obj\Release\EntityMapping.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\obj\Release\EntityMapping.csproj.CopyComplete
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\obj\Release\EntityMapping.dll
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\obj\Release\EntityMapping.pdb
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\Common.dll
+C:\Users\user\source\repos\ProjeGondor\EntityMapping\bin\Release\Common.pdb

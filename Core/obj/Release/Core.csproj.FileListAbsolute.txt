@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Release\Core.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Release\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\Core.dll.config
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\Core.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\Core.pdb
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\EntityFramework.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\EntityFramework.xml
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Release\Core.csproj.CopyComplete
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Release\Core.dll
+C:\Users\user\source\repos\ProjeGondor\Core\obj\Release\Core.pdb
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\Common.dll
+C:\Users\user\source\repos\ProjeGondor\Core\bin\Release\Common.pdb

@@ -57,6 +57,7 @@
     <Compile Include="DTOModels\EntitiyDTOs\BoxTypeDTO.cs" />
     <Compile Include="DTOModels\ComplexDTOs\CustomerUserDTO.cs" />
     <Compile Include="DTOModels\ComplexDTOs\ProductCategoryDTO.cs" />
+    <Compile Include="DTOModels\EntitiyDTOs\OrderDetailDTO.cs" />
     <Compile Include="DTOModels\EntitiyDTOs\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DTOModels\EntitiyDTOs\BoxDTO.cs" />
