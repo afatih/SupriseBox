@@ -20,19 +20,24 @@ namespace SupriseBox.MvcUI.Controllers
         {
             _bs = bs;
         }
+
+
+        //sepete kutu ekler
         public ActionResult ShoppingCard(int BoxID)
         {
-            ServiceResult result = Helper.ShoppingList.AddBox(BoxID);
-            ServiceResult<BoxDTO> result2 = _bs.GetBoxById(BoxID);
-            var s = Session["sepet"]; //key=boxID, value=sepette kaç tane kutu var
-            return Json(new { status = result.State, message = result.Message, box = result2.Result.BoxName, }, JsonRequestBehavior.AllowGet);
+            ManageBasket mb = new ManageBasket(_bs);
+            var JsonData = mb.AddBoxToBasket(BoxID);
+
+            return Json(JsonData, JsonRequestBehavior.AllowGet);
         }
-        
+
+
+
         //Sepetteki kutuların bilgilerini gösterir 
         public ActionResult ShoppingCardDetail()
         {
             List<BoxDTO> boxes = new List<BoxDTO>();
-            var boxIDs = Helper.ShoppingList.GetBoxesKeysInBasket();
+            var boxIDs = ((List<OrderDetailDTO>)Session["cartDetails"]).Select(x=>x.BoxID).ToList();
 
             foreach (var boxID in boxIDs)
             {
@@ -42,7 +47,6 @@ namespace SupriseBox.MvcUI.Controllers
                     if (serviceResult.State == ProcessStateEnum.Success)
                     {
                         boxes.Add(serviceResult.Result);
-                       
                     }
                     else
                     {
@@ -51,15 +55,11 @@ namespace SupriseBox.MvcUI.Controllers
                 }
                 catch (Exception ex)
                 {
-
                     return Content(ex.Message);
                 }
-
             }
+
             return View(boxes);
         }
-
-
-
     }
 }

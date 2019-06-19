@@ -17,7 +17,8 @@ namespace Bll.Abstract.EntityType
         ServiceResult AddBox(BoxDTO BoxDTO);
         ServiceResult<BoxDTO> UpdateBox(int id);
         ServiceResult<BoxDTO> GetBoxById(int id);
-
+        ServiceResult UpdateBox(BoxDTO BoxDTO);
+        ServiceResult DeleteBox(int id);
 
     }
 }

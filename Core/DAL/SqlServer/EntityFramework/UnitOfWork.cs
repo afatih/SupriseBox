@@ -51,6 +51,13 @@ namespace Core.DAL.SqlServer.EntityFramework
             return new Repository<TEntity>(_dbContext);
         }
 
-       
+        public void Dispose()
+        {
+            if (_transaction == null)
+            {
+                throw new Exception("mevcut bir transaction yok.");
+            }
+            _transaction.Dispose();
+        }
     }
 }

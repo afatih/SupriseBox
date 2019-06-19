@@ -9,6 +9,7 @@ namespace DTOs.DTOModels.ComplexDTOs
 {
    public class CustomerUserDTO
     {
+        public int CustomerID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         [Display(Name ="E-Mail")]

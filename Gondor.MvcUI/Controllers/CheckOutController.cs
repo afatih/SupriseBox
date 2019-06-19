@@ -1,4 +1,7 @@
 ﻿using Bll.Abstract.ComplexType;
+using Bll.Abstract.EntityType;
+using Dtos.DTOModels.ComplexDTOs;
+using DTOs.DTOModels.EntityDTOs;
 using SupriseBox.MvcUI.Filter;
 using System;
 using System.Collections.Generic;
@@ -12,11 +15,16 @@ namespace SupriseBox.MvcUI.Controllers
     public class CheckOutController : Controller
     {
         ICustomerUserService _cus;
+        IOrderOrderDetailService _oods;
+
+
         
 
-        public CheckOutController(ICustomerUserService cus)
+        public CheckOutController(ICustomerUserService cus,IOrderOrderDetailService oods )
         {
             _cus = cus;
+            _oods = oods;
+
         }
         // GET: CheckOut
         
@@ -31,7 +39,7 @@ namespace SupriseBox.MvcUI.Controllers
                     ViewBag.currentUser=(model.Result);
                 }
             }
-            var boxes = Helper.ShoppingDetails.items;
+            var boxes = (List<OrderDetailDTO>)Session["cartDetails"];
             var SubTotal = boxes.Sum(x => x.TotalAmount);
             ViewBag.SubTotal = SubTotal;
             return View(boxes);
@@ -39,9 +47,23 @@ namespace SupriseBox.MvcUI.Controllers
 
 
         [HttpPost]
-        public ActionResult PlaceOrder(FormCollection formcoll)
+        public ActionResult PlaceOrder(OrderDTO model)
         {
-            var boxes = Helper.ShoppingDetails.items;
+            var orderDetails = (List<OrderDetailDTO>)Session["cartDetails"];
+
+            var customerID = model.CustomerID;
+            var adress = model.Adress;
+
+            var orderOrderDetailDto = new OrderOrderDetailDTO()
+            {
+                CustomerID = customerID,
+                Adress = adress,
+                OrderDate = DateTime.Now,
+                SelectedOrders = orderDetails
+            };
+
+            _oods.AddOrderOrderDetail(orderOrderDetailDto);
+
 
 
             //alttakine benzer bi kod bloğu olacak sipariş bilgilerini aldıktan sonra
@@ -90,7 +112,34 @@ namespace SupriseBox.MvcUI.Controllers
 
             //return RedirectToAction("Index", "ThankYou");
 
-            return null;
+
+
+            //_uow.BeginTran();
+            //try
+            //{
+            //    Customer newCustomer = new Customer();
+            //    newCustomer.UserID = newUser.ID;
+            //    newCustomer.FirstName = customeruser.FirstName;
+            //    newCustomer.LastName = customeruser.LastName;
+            //    newCustomer.Email = customeruser.eMail;
+            //    _cr.Add(newCustomer);
+
+            //    _uow.CommitTran();
+            //    return new ServiceResult(ProcessStateEnum.Success, "Kayıt başarıyla yapılmıştır.");
+            //}
+            //catch (Exception)
+            //{
+            //    _uow.RollBackTran();
+            //    return new ServiceResult(ProcessStateEnum.Error, "Bir hata nedeniyle kayıt yapılamamıştır.");
+            //}
+
+            return RedirectToAction("Confirmation", "CheckOut");
+        }
+
+
+        public ActionResult Confirmation()
+        {
+            return View();
         }
     }
 }

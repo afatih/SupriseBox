@@ -1,4 +1,5 @@
-﻿using Common;
+﻿using BLL.Absract;
+using Common;
 using DTOs.DTOModels.EntityDTOs;
 using Entity;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Bll.Abstract.EntityType
 {
-    public interface IBoxTypeService
+    public interface IBoxTypeService:IService<BoxType>
     {
         ServiceResult<IEnumerable<BoxTypeDTO>> GetBoxTypes();
     }

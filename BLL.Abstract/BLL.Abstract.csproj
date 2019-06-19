@@ -56,11 +56,15 @@
     <Compile Include="ComplexType\IBoxBoxTypeService.cs" />
     <Compile Include="ComplexType\ICustomerUserService.cs" />
     <Compile Include="ComplexType\IProductCategoryService.cs" />
+    <Compile Include="ComplexType\IOrderOrderDetailService.cs" />
+    <Compile Include="ComplexType\Iservice.cs" />
     <Compile Include="EntityType\IBoxService.cs" />
     <Compile Include="EntityType\IBoxTypeService.cs" />
-    <Compile Include="EntityType\ICategoryService.cs" />
     <Compile Include="EntityType\ICustomerService.cs" />
+    <Compile Include="EntityType\IOrderDetailService.cs" />
+    <Compile Include="EntityType\IOrderService.cs" />
     <Compile Include="EntityType\IProductService.cs" />
+    <Compile Include="EntityType\IRoleService.cs" />
     <Compile Include="EntityType\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

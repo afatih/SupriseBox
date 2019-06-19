@@ -27,7 +27,7 @@ namespace BLL.ComplexType
         public ServiceResult<AllBoxTypesWithBoxDTO> GetAllBoxTypesWithBox()
         {
             var boxTypeList = _btr.GetList();
-            var boxTypeListDTO = Helper.Helpers.Mapping<BoxType,BoxTypeDTO>(boxTypeList);
+            var boxTypeListDTO = Helper.Helpers.Mapping<BoxType, BoxTypeDTO>(boxTypeList);
             BoxDTO boxDTO = new BoxDTO();
 
             AllBoxTypesWithBoxDTO allBox = new AllBoxTypesWithBoxDTO()
@@ -36,35 +36,64 @@ namespace BLL.ComplexType
                 Box = boxDTO
             };
 
-            return new ServiceResult<AllBoxTypesWithBoxDTO>(ProcessStateEnum.Success, "", allBox); 
-            
+            return new ServiceResult<AllBoxTypesWithBoxDTO>(ProcessStateEnum.Success, "", allBox);
+
         }
 
         public ServiceResult<BoxBoxTypeDTO> GetBoxBoxType(int boxID)
         {
-            
+
             var sorgu = (from b in _br.GetQuery()
                          join bt in _btr.GetQuery() on b.BoxTypeID equals bt.ID
-                         where b.ID==boxID
+                         where b.ID == boxID
                          select new BoxBoxTypeDTO
                          {
-                             BoxID=boxID,
-                             BoxName=b.BoxName,
-                             Description=b.Description,
-                             ImageUrl=b.ImageUrl,
-                             Price=b.Price,
-                             @BoxType=bt.Type,
-                             UnitsInStock=b.UnitsInStock                            
+                             BoxID = boxID,
+                             BoxName = b.BoxName,
+                             Description = b.Description,
+                             ImageUrl = b.ImageUrl,
+                             Price = b.Price,
+                             @BoxType = bt.Type,
+                             UnitsInStock = b.UnitsInStock,
+                             IsDelete = b.IsDelete
+
                          }
                        );
             var result = sorgu.FirstOrDefault();
 
-            if (result==null)
+            if (result == null)
             {
                 return new ServiceResult<BoxBoxTypeDTO>(ProcessStateEnum.Warning, "Kutu bulunamadı", null);
             }
 
             return new ServiceResult<BoxBoxTypeDTO>(ProcessStateEnum.Success, "Kutu bilgileri bulundu", result);
+        }
+
+        public ServiceResult<IEnumerable<BoxBoxTypeDTO>> GetAllBoxBoxType()
+        {
+
+            var sorgu = (from b in _br.GetQuery()
+                         join bt in _btr.GetQuery() on b.BoxTypeID equals bt.ID
+                         select new BoxBoxTypeDTO
+                         {
+                             BoxID = b.ID,
+                             BoxName = b.BoxName,
+                             Description = b.Description,
+                             ImageUrl = b.ImageUrl,
+                             Price = b.Price,
+                             @BoxType = bt.Type,
+                             UnitsInStock = b.UnitsInStock,
+                             IsDelete = b.IsDelete
+                         }
+                       );
+            var result = sorgu.ToList();
+
+            if (result == null)
+            {
+                return new ServiceResult<IEnumerable<BoxBoxTypeDTO>>(ProcessStateEnum.Warning, "Kutu bulunamadı", null);
+            }
+
+            return new ServiceResult<IEnumerable<BoxBoxTypeDTO>>(ProcessStateEnum.Success, "Kutu bilgileri bulundu", result);
         }
     }
 }

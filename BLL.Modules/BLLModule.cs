@@ -29,6 +29,10 @@ namespace BLL.Module
             Kernel.Bind<ICustomerUserService>().To<CustomerUserService>();
             Kernel.Bind<IBoxBoxTypeService>().To<BoxBoxTypeService>();
             Kernel.Bind<IBoxTypeService>().To<BoxTypeService>();
+            Kernel.Bind<IProductService>().To<ProductService>();
+            Kernel.Bind<IOrderService>().To<OrderService>();
+            Kernel.Bind<IOrderDetailService>().To<OrderDetailService>();
+            Kernel.Bind<IOrderOrderDetailService>().To<OrderOrderDetailService>();
 
 
             List<INinjectModule> moduleList = new List<INinjectModule>();

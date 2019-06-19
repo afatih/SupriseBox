@@ -18,10 +18,32 @@ namespace BLL
                 BoxName = BoxDTO.BoxName,
                 BoxTypeID = BoxDTO.BoxTypeID,
                 Description = BoxDTO.Description,
+                ImageUrl = BoxDTO.ImageUrl,
+                Price = BoxDTO.Price,
+                UnitsInStock = BoxDTO.UnitsInStock
+
 
             };
 
-            return box; 
+            return box;
         }
+        public static Box MappingBoxVMtoBoxEntityUpdate(BoxDTO BoxDTO)
+        {
+            Box box = new Box()
+            {
+                ID = BoxDTO.ID,
+                BoxName = BoxDTO.BoxName,
+                BoxTypeID = BoxDTO.BoxTypeID,
+                Description = BoxDTO.Description,
+                ImageUrl = BoxDTO.ImageUrl,
+                Price = BoxDTO.Price,
+                UnitsInStock = BoxDTO.UnitsInStock,
+                BoxType = new BoxType { ID = BoxDTO.ID }
+
+            };
+
+            return box;
+        }
+
     }
 }

@@ -16,7 +16,7 @@ namespace Dal
 
 
 #if DEBUG
-        public SurpriseBoxDbContext() : base("server=muhaf.database.windows.net; database=SuprizKutuDB;user id=muhaf;password=Alaf9090")
+        public SurpriseBoxDbContext() : base("server=muhaf.database.windows.net; database=SuprizKutuDB; user id=muhaf; password=Alaf9090;")
         {
             Helper.Helpers.IsTest = true;
             //Database.SetInitializer(new SupriseBoxDBInitializer());

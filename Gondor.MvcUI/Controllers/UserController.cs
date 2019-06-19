@@ -49,9 +49,6 @@ namespace SupriseBox.MvcUI.Controllers
                 {
                     ViewBag.Uyari = "Bu kullanıcı adına ait bir üyelik bulunmamaktadır. Lütfen kullanıcı adınızı kontrol ediniz!";
                 }
-
-            
-            
             return View();
         }
 
@@ -60,8 +57,7 @@ namespace SupriseBox.MvcUI.Controllers
         {
             Session["UserId"] = null;
             Session["UserName"] = null;
-            Helper.ShoppingDetails.items.Clear();
-            Helper.ShoppingDetails.UserID = null;
+            Session["cartDetails"] = null;
             Session.Abandon();
             return RedirectToAction("Index", "Home");
         }

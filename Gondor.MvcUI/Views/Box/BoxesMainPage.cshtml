@@ -69,14 +69,7 @@
         var url = "@Url.Action("ShoppingCard", "Shopping")";
         $.get(url, { BoxID:catchID}, function (d, s) {
             console.log(d);
-            if (d.status == 1) {
-                alert(d.box + d.message);
-            }
-            else if (d.status==2)
-            {
-                alert(d.box + d.message);
-            }
-
+            alert(d.box + d.message);
         })
         return false;
     }

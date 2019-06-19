@@ -15,5 +15,6 @@ namespace DTOs.DTOModels.ComplexDTOs
         public decimal Price { get; set; }
         public string BoxType { get; set; }
         public int UnitsInStock { get; set; }
+        public bool IsDelete { get; set; }
     }
 }

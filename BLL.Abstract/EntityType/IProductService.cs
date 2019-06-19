@@ -1,5 +1,7 @@
 ﻿using Common;
+using Dtos.DTOModels.EntityDTOs;
 using Entity;
+using Entity.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace BLL.Absract
 {
-    public interface IProductService:IService<Box>
+    public interface IProductService:IService<ProductDTO>
     {
-        ServiceResult<IEnumerable<Box>> GetProducts();
-        ServiceResult AddProduct(Box product);
+        ServiceResult<IEnumerable<ProductDTO>> GetProducts();
+        ServiceResult AddProduct(ProductDTO product);
     }
 }

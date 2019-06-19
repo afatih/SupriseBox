@@ -2,6 +2,7 @@
 using BLL.Base;
 using Common;
 using Core.DAL;
+using Dtos.DTOModels.EntityDTOs;
 using Entity;
 using Entity.Entities;
 using System;
@@ -53,12 +54,14 @@ namespace BLL.EntityType
         //var result=  _uow.GetRepository<Box>().GetList();
         //     return new ServiceResult<IEnumerable<Box>>(ProcessStateEnum.Success, "Okuma başarılı", result);
         // }
-        public ServiceResult AddProduct(Box product)
+      
+        public ServiceResult AddProduct(ProductDTO product)
         {
             throw new NotImplementedException();
         }
 
-        public ServiceResult<IEnumerable<Box>> GetProducts()
+
+        ServiceResult<IEnumerable<ProductDTO>> IProductService.GetProducts()
         {
             throw new NotImplementedException();
         }

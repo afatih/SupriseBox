@@ -60,6 +60,7 @@ namespace BLL.ComplexType
                         where u.ID == id
                         select new CustomerUserDTO
                         {
+                            CustomerID=c.ID,
                             UserName = u.UserName,
                             FirstName = c.FirstName,
                             LastName = c.LastName,

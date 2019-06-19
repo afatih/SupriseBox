@@ -65,14 +65,7 @@
          var url = "@Url.Action("ShoppingCard", "Shopping")";
         $.get(url, { BoxID: @Model.BoxID}, function (d, s) {
             console.log(d);
-            if (d.status == 1) {
                 alert(d.box + d.message);
-            }
-            else if (d.status==2)
-            {
-                alert(d.box + d.message);
-            }
-
         })
         return false;
     })

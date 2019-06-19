@@ -60,11 +60,15 @@
     <Compile Include="Base\BaseService.cs" />
     <Compile Include="ComplexType\BoxBoxTypeService.cs" />
     <Compile Include="ComplexType\CustomerUserService.cs" />
+    <Compile Include="ComplexType\OrderOrderDetailService.cs" />
     <Compile Include="ComplexType\ProductCategoryService.cs" />
     <Compile Include="EntityType\BoxService.cs" />
     <Compile Include="EntityType\BoxTypeService.cs" />
     <Compile Include="EntityType\CustomerService.cs" />
+    <Compile Include="EntityType\OrderDetailService.cs" />
+    <Compile Include="EntityType\OrderService.cs" />
     <Compile Include="EntityType\ProductService.cs" />
+    <Compile Include="EntityType\RoleService.cs" />
     <Compile Include="EntityType\UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VMMappings.cs" />

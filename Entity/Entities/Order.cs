@@ -24,6 +24,8 @@ namespace Entity
 
         public string Adress { get; set; }
 
+        public decimal SubTotal { get; set; }
+
         public virtual Customer Customer { get; set; }
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }

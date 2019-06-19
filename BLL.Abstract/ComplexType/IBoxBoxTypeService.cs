@@ -14,6 +14,7 @@ namespace Bll.Abstract.ComplexType
     {
         ServiceResult<BoxBoxTypeDTO> GetBoxBoxType(int boxID);
         ServiceResult<AllBoxTypesWithBoxDTO> GetAllBoxTypesWithBox();
+        ServiceResult<IEnumerable<BoxBoxTypeDTO>> GetAllBoxBoxType();
 
     }
 }

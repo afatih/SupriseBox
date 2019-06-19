@@ -14,6 +14,7 @@ namespace Core.DAL
         void BeginTran();
         void CommitTran();
         void RollBackTran();
+        void Dispose();
 
     }
 }

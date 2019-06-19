@@ -12,7 +12,7 @@ namespace Dal
     {
         public override void Load()
         {
-            //Kernel.Bind<DbContext>().To<ProjeDbContext>();
+        
             Kernel.Bind<DbContext>().To<SurpriseBoxDbContext>();
         }
     }
